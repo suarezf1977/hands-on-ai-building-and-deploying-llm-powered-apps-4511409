@@ -1,0 +1,4 @@
+import chainlist as cl
+@cl.on_message
+async def main(message:cl.Message)
+  await cl.Message(message.content).send()
